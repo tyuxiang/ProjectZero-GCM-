@@ -12,8 +12,8 @@ public class EnemyMovement : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        //maxDist += transform.position.y;
-        //minDist -= transform.position.y;
+        maxDist += transform.position.y;
+        minDist -= transform.position.y;
     }
 
     // Update is called once per frame
@@ -23,7 +23,7 @@ public class EnemyMovement : MonoBehaviour
         {
             case -1:
                 // Moving Left
-                if (transform.position.y <= minDist)
+                if (transform.position.y >= minDist)
                 {
                     direction = 1;
                 }

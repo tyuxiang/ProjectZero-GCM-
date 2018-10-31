@@ -13,10 +13,10 @@ public class Rotation : MonoBehaviour {
         {
             transform.Rotate(0, 0, 90*Time.deltaTime);
         }*/
-        if (Input.GetKeyDown("space") & main.instance.j==false)
+        if (Input.GetKeyDown("space"))
         {
             main.instance.i = true;
-            if (((Time.time - main.instance.lastTapTime) < main.instance.tapSpeed) & Time.time>2)
+            if (((Time.time - main.instance.lastTapTime) < main.instance.tapSpeed))
             {
                 main.instance.i = false;
                 print("double tap");
@@ -24,7 +24,7 @@ public class Rotation : MonoBehaviour {
             }
             main.instance.lastTapTime = Time.time;
         }
-        if (main.instance.i & !main.instance.j)
+        if (main.instance.i)
         {  
             transform.Rotate(0, 0, 90*Time.deltaTime);
             main.instance.angle_counter +=90*Time.deltaTime;
@@ -44,7 +44,7 @@ public class Rotation : MonoBehaviour {
                 main.instance.angle = -90;
             }
         }
-        if (main.instance.j & !main.instance.i)
+        if (main.instance.j)
         {
             print("angle counter: " + main.instance.angle_counter);
             transform.Rotate(0, 0, -90 * Time.deltaTime);
