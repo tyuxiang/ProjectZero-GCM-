@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{F3E0FC89-422C-88D0-999C-D4F4D2FEB3A7}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/gravity.cs">
+    <Files>
+      <File FileName="Assets/faneffect.cs" Line="6" Column="31" />
+      <File FileName="Assets/LightningBolt/Readme.txt" Line="53" Column="1" />
+      <File FileName="Assets/rotatecat.cs" Line="17" Column="1" />
+      <File FileName="Assets/collision.cs" Line="7" Column="15" />
+      <File FileName="Assets/max_speed.cs" Line="1" Column="1" />
+      <File FileName="Assets/Gravity_hold.cs" Line="1" Column="1" />
+      <File FileName="Assets/rotation_hold.cs" Line="1" Column="1" />
+      <File FileName="Assets/main.cs" Line="44" Column="52" />
+      <File FileName="Assets/rotatecat_hold.cs" Line="1" Column="1" />
+      <File FileName="Assets/EnemyMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets/enemyroam.cs" Line="15" Column="21" />
+      <File FileName="Assets/elevator.cs" Line="20" Column="35" />
+      <File FileName="Assets/lightningcollision.cs" Line="7" Column="33" />
+      <File FileName="Assets/lightningcollision2.cs" Line="33" Column="28" />
+      <File FileName="Assets/lightning.cs" Line="3" Column="35" />
+      <File FileName="Assets/gravity.cs" Line="5" Column="14" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

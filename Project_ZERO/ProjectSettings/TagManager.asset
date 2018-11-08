@@ -6,6 +6,11 @@ TagManager:
   tags:
   - spikes
   - Enemy
+  - Powerup
+  - fan
+  - secret
+  - player
+  - lightning
   layers:
   - Default
   - TransparentFX

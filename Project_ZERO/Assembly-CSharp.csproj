@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{642C8122-5254-A92B-0380-0F2A3685D06C}</ProjectGuid>
+    <ProjectGuid>{F3E0FC89-422C-88D0-999C-D4F4D2FEB3A7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -115,29 +115,43 @@
     <Compile Include="Assets\Cinemachine\Timeline\CinemachineShot.cs" />
     <Compile Include="Assets\Cinemachine\Timeline\CinemachineTrack.cs" />
     <Compile Include="Assets\collision.cs" />
+    <Compile Include="Assets\elevator.cs" />
     <Compile Include="Assets\endtrigger.cs" />
     <Compile Include="Assets\enemy.cs" />
     <Compile Include="Assets\EnemyMovement.cs" />
+    <Compile Include="Assets\enemyroam.cs" />
+    <Compile Include="Assets\faneffect.cs" />
     <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\gravity.cs" />
+    <Compile Include="Assets\Gravity_hold.cs" />
+    <Compile Include="Assets\lightning.cs" />
+    <Compile Include="Assets\LightningBolt\LightningBoltScript.cs" />
+    <Compile Include="Assets\lightningcollision.cs" />
+    <Compile Include="Assets\lightningcollision2.cs" />
     <Compile Include="Assets\main.cs" />
+    <Compile Include="Assets\max_speed.cs" />
     <Compile Include="Assets\patrol.cs" />
     <Compile Include="Assets\rotatecat.cs" />
+    <Compile Include="Assets\rotatecat_hold.cs" />
     <Compile Include="Assets\Rotation.cs" />
+    <Compile Include="Assets\rotation_hold.cs" />
+    <Compile Include="Assets\Scenes\Scene Folders\MainMenu\LoadSceneOnClick.cs" />
+    <Compile Include="Assets\Scenes\Scene Folders\Tutorial Folder\TutorialLevelText.cs" />
     <Compile Include="Assets\Tim's Assets\Probs\Ceiling Fan\Scripts\Fan_Rotation.cs" />
+    <None Include="Assets\LightningBolt\Readme.txt" />
     <None Include="Assets\Cinemachine\ReleaseNotes.txt" />
     <None Include="Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/ryan/Desktop/Project updated/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/ryan/Desktop/123/ProjectZero-GCM-/Project_ZERO/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/ryan/Desktop/Project updated/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/ryan/Desktop/123/ProjectZero-GCM-/Project_ZERO/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/ryan/Desktop/Project updated/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/ryan/Desktop/123/ProjectZero-GCM-/Project_ZERO/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/ryan/Desktop/Project updated/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/ryan/Desktop/123/ProjectZero-GCM-/Project_ZERO/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -320,7 +334,7 @@
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/Unity.Locator.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity.Settings">
-      <HintPath>/Users/ryan/Desktop/Project updated/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+      <HintPath>/Users/ryan/Desktop/123/ProjectZero-GCM-/Project_ZERO/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
