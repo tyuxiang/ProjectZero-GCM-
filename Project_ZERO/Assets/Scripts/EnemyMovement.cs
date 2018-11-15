@@ -2,49 +2,56 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyMovement2 : MonoBehaviour
+public class EnemyMovement : MonoBehaviour
 {
-    float maxDist = 72f;
-    float minDist = 65.5f;
-    float speed = 5f;
-    int direction = -1;
+ int direction = -1;
 
-    // Use this for initialization
-    void Start()
+    [SerializeField]
+private float maxDist = 2f;
+
+[SerializeField]
+private float minDist = 1.5f;
+
+[SerializeField]
+private float speed = 4f;
+
+private bool flipState;
+
+// Use this for initialization
+void Start()
+{
+
+}
+
+// Update is called once per frame
+void Update()
+{
+    switch (direction)
     {
-        maxDist += transform.position.y;
-        minDist -= transform.position.y;
-    }
+        case -1:
+            // Moving Left
+            if (transform.position.y <= minDist)
+            {
+                direction = 1;
+            }
+            else
+            {
+                this.transform.position += speed * -this.transform.up * Time.deltaTime;
+            }
+            break;
 
-    // Update is called once per frame
-    void Update()
-    {
-        switch (direction)
-        {
-            case -1:
-                // Moving Left
-                if (transform.position.y >= minDist)
-                {
-                    direction = 1;
-                }
-                else
-                {
-                    this.transform.position += speed * -this.transform.up * Time.deltaTime;
-                }
-                break;
-
-            case 1:
-                //Moving Right
-                if (transform.position.y < maxDist)
-                {
-                    this.transform.position += speed * this.transform.up * Time.deltaTime;
-                }
-                else
-                {
-                    direction = -1;
-                }
-                break;
-        }
+        case 1:
+            //Moving Right
+            if (transform.position.y < maxDist)
+            {
+                this.transform.position += speed * this.transform.up * Time.deltaTime;
+            }
+            else
+            {
+                direction = -1;
+            }
+            break;
     }
+}
 
 }

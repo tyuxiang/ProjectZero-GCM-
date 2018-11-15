@@ -29,9 +29,9 @@ private void OnCollisionEnter2D(Collision2D collisionInfo)
         {
             if(poweruptimer<1) 
             {
-                movement.enabled = false;
+                //movement.enabled = false;
                 main.instance.angle = -90;
-                main.instance.angle_counter = 0;
+                //main.instance.angle_counter = 0;
                 Physics2D.gravity = new Vector2(0, (float)-9.81);
                 Restart();
             }
